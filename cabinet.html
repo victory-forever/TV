@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>TV-SOFT / Личный кабинет</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- Модальные окна -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.arcticmodal.css">
+	<link rel="stylesheet" type="text/css" href="css/simple.css">	
+	<!-- Шрифты  -->	
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
+	<link rel="stylesheet" href="css/fa-solid.min.css">
+	<link rel="stylesheet" href="css/fontawesome.min.css">
+	<!-- main -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<div id="wrapper">
+		<!-- ХЭДЕР -->
+		<header class="header-cabinet">	
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="header">
+							<div class="logo">
+								<img src="img/logo.png" alt="Логотип">
+							</div>
+							<nav>
+								<ul>
+									<li>
+										<a class="scrollto" href="#about">О компании </a>
+									</li>
+							        <li>
+							        	<a class="scrollto" href="#example">Образец телепрограммы </a>
+							        </li>
+							        <li>
+							        	<a class="scrollto" href="#questions">Вопрос и ответ</a>
+							        </li>
+							        <li>
+							        	<a class="scrollto" href="#contacts">Контакты</a>
+							        </li>
+								</ul>
+							</nav>
+							<div class="header_info">
+								<div class="open">
+									<img src="img/arrow.png" alt="">
+									<img src="img/open-247.png" alt="">
+								</div>
+								<div class="profile-info">
+									<div class="userpic">
+										<i class="fas fa-user-circle"></i>
+									</div>
+									<div class="profile-name">
+										Иван Иванов
+									</div>							
+								</div>
+								<a class="exit" href="#">
+									Выход
+								</a>
+								<div class="hamburger">
+									<div class="hamburger_icon">
+										<img src="img/hamburger.png" alt="">
+									</div>
+									<ul class="hamburger_menu">
+										<li>
+											<a class="scrollto" href="#about">О компании </a>
+										</li>
+								        <li>
+								        	<a class="scrollto" href="#example">Образец телепрограммы </a>
+								        </li>
+								        <li>
+								        	<a class="scrollto" href="#questions">Вопрос и ответ</a>
+								        </li>
+								        <li>
+								        	<a class="scrollto" href="#contacts">Контакты</a>
+								        </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- КОНТЕНТ -->
+
+		<div id="cabinet" class="cabinet">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="cabinet_status">
+							Пожалуйста, погасите задолженность
+						</div>
+						<div class="cabinet_content">
+							<div class="content">
+							    <ul class="tabs_menu menu flex">
+							        <li><a class="tabs_menu-item active-tab" href="#tab1">Телепрограммы</a></li>
+							        <li><a class="tabs_menu-item" href="#tab2">Анонсы</a></li>
+							        <li><a class="tabs_menu-item" href="#tab3">Гороскопы</a></li>
+							        <li><a class="tabs_menu-item" href="#tab4">Кроссворды</a></li>
+							        <li><a class="tabs_menu-item" href="#tab5">Сканворды</a></li>
+							        <li><a class="tabs_menu-item" href="#tab6">Дополнительная информация</a></li>
+							        <li><a class="tabs_menu-item" href="#tab7">Анекдоты</a></li>
+							        <li><a class="tabs_menu-item" href="#tab8">Полезные материалы</a></li>
+							        <li><a class="tabs_menu-item" href="#tab9">Судоку</a></li>
+							    </ul>
+							    <div class="tab-wrap">
+								    <div class="tab" id="tab1">
+								        <ul class="content_list">
+								        	<li class="content_item">
+								        		<div class="content_item-name">
+								        			Первый канал
+								        		</div>
+								        		<div class="content_item-info">
+									        		<div class="content_item-date">
+									        			11.02.2017
+									        		</div>
+									        		<div class="content_item-checkbox">
+									        			<input type="checkbox" id="checkbox-download1" class="one" data-id="d1"  name="channel" value="pervyi">
+														<label for="checkbox-download1" class="checkbox-label"></label>
+									        		</div>
+									        		<div class="content_item-download">
+									        			<i class="fas fa-download"></i>
+									        		</div>
+								        		</div>
+								        	</li>
+								        	<li class="content_item">
+								        		<div class="content_item-name">
+								        			Россия 1
+								        		</div>
+								        		<div class="content_item-info">
+									        		<div class="content_item-date">
+									        			11.02.2017
+									        		</div>
+									        		<div class="content_item-checkbox">
+									        			<input type="checkbox" id="checkbox-download2" class="one" data-id="d1"  name="channel" value="russia1">
+														<label for="checkbox-download2" class="checkbox-label"></label>
+									        		</div>
+									        		<div class="content_item-download">
+									        			<i class="fas fa-download"></i>
+									        		</div>
+								        		</div>
+								        	</li>
+								        	<li class="content_item">
+								        		<div class="content_item-name">
+								        			НТВ
+								        		</div>
+								        		<div class="content_item-info">
+									        		<div class="content_item-date">
+									        			11.02.2017
+									        		</div>
+									        		<div class="content_item-checkbox">
+									        			<input type="checkbox" id="checkbox-download3" class="one" data-id="d1"  name="channel" value="ntv">
+														<label for="checkbox-download3" class="checkbox-label"></label>
+									        		</div>
+									        		<div class="content_item-download">
+									        			<i class="fas fa-download"></i>
+									        		</div>
+								        		</div>
+								        	</li>
+								        	<li class="content_item">
+								        		<div class="content_item-name">
+								        			ТВ Центр
+								        		</div>
+								        		<div class="content_item-info">
+									        		<div class="content_item-date">
+									        			11.02.2017
+									        		</div>
+									        		<div class="content_item-checkbox">
+									        			<input type="checkbox" id="checkbox-download4" class="one" data-id="d1"  name="channel" value="tvcentr">
+														<label for="checkbox-download4" class="checkbox-label"></label>
+									        		</div>
+									        		<div class="content_item-download">
+									        			<i class="fas fa-download"></i>
+									        		</div>
+								        		</div>
+								        	</li>
+								        	<li class="content_item">
+								        		<div class="content_item-name">
+								        			Пятый канал
+								        		</div>
+								        		<div class="content_item-info">
+									        		<div class="content_item-date">
+									        			11.02.2017
+									        		</div>
+									        		<div class="content_item-checkbox">
+									        			<input type="checkbox" id="checkbox-download5" class="one" data-id="d1"  name="channel" value="Piatyi">
+														<label for="checkbox-download5" class="checkbox-label"></label>
+									        		</div>
+									        		<div class="content_item-download">
+									        			<i class="fas fa-download"></i>
+									        		</div>
+								        		</div>
+								        	</li>
+								        </ul>
+								        <div class="choose-all">
+							        		<div class="choose-all_text">
+							        			Выбрать все файлы
+							        		</div>
+							        		<div class="content_item-checkbox">
+							        			<input type="checkbox" id="checkbox-download6" class="all" data-id="d1"  name="channel" value="all">
+												<label for="checkbox-download6" class="checkbox-label"></label>
+							        		</div>
+							        	</div>
+								    </div>
+								    <div class="tab" id="tab2">
+								        <ul class="content_list">
+								        	<li class="content_item">
+								        		<div class="content_item-name">
+								        			Анонс
+								        		</div>
+								        		<div class="content_item-info">
+									        		<div class="content_item-date">
+									        			11.02.2017
+									        		</div>
+									        		<div class="content_item-checkbox">
+									        			<input type="checkbox" id="checkbox-download7" class="one" data-id="d2"  name="anons" value="anons1">
+														<label for="checkbox-download7" class="checkbox-label"></label>
+									        		</div>
+									        		<div class="content_item-download">
+									        			<i class="fas fa-download"></i>
+									        		</div>
+								        		</div>
+								        	</li>
+								        </ul>
+								        <div class="choose-all">
+							        		<div class="choose-all_text">
+							        			Выбрать все файлы
+							        		</div>
+							        		<div class="content_item-checkbox">
+							        			<input type="checkbox" id="checkbox-download8" class="all" data-id="d2"  name="anons" value="all">
+												<label for="checkbox-download8" class="checkbox-label"></label>
+							        		</div>
+							        	</div>
+								    </div>
+								    <div class="tab" id="tab3">
+								        <ul class="content_list">
+								        	<li class="content_item">
+								        		<div class="content_item-name">
+								        			Гороскоп
+								        		</div>
+								        		<div class="content_item-info">
+									        		<div class="content_item-date">
+									        			11.02.2017
+									        		</div>
+									        		<div class="content_item-checkbox">
+									        			<input type="checkbox" id="checkbox-download9" class="one" data-id="d3"  name="horoscope" value="horoscope1">
+														<label for="checkbox-download9" class="checkbox-label"></label>
+									        		</div>
+									        		<div class="content_item-download">
+									        			<i class="fas fa-download"></i>
+									        		</div>
+								        		</div>
+								        	</li>
+								        </ul>
+								        <div class="choose-all">
+							        		<div class="choose-all_text">
+							        			Выбрать все файлы
+							        		</div>
+							        		<div class="content_item-checkbox">
+							        			<input type="checkbox" id="checkbox-download10" class="all" data-id="d3"  name="horoscope" value="all">
+												<label for="checkbox-download10" class="checkbox-label"></label>
+							        		</div>
+							        	</div>
+								    </div>
+								    <div class="tab" id="tab4">
+								        <ul class="content_list">
+								        	<li class="content_item">
+								        		<div class="content_item-name">
+								        			Кроссворд
+								        		</div>
+								        		<div class="content_item-info">
+									        		<div class="content_item-date">
+									        			11.02.2017
+									        		</div>
+									        		<div class="content_item-checkbox">
+									        			<input type="checkbox" id="checkbox-download11" class="one" data-id="d4"  name="crossword" value="crossword1">
+														<label for="checkbox-download11" class="checkbox-label"></label>
+									        		</div>
+									        		<div class="content_item-download">
+									        			<i class="fas fa-download"></i>
+									        		</div>
+								        		</div>
+								        	</li>
+								        </ul>
+								        <div class="choose-all">
+							        		<div class="choose-all_text">
+							        			Выбрать все файлы
+							        		</div>
+							        		<div class="content_item-checkbox">
+							        			<input type="checkbox" id="checkbox-download12" class="all" data-id="d4"  name="crossword" value="all">
+												<label for="checkbox-download12" class="checkbox-label"></label>
+							        		</div>
+							        	</div>
+								    </div>
+								    <div class="tab" id="tab5">
+								        <ul class="content_list">
+								        	<li class="content_item">
+								        		<div class="content_item-name">
+								        			Сканворд
+								        		</div>
+								        		<div class="content_item-info">
+									        		<div class="content_item-date">
+									        			11.02.2017
+									        		</div>
+									        		<div class="content_item-checkbox">
+									        			<input type="checkbox" id="checkbox-download13" class="one" data-id="d5"  name="skanvord" value="skanvord1">
+														<label for="checkbox-download13" class="checkbox-label"></label>
+									        		</div>
+									        		<div class="content_item-download">
+									        			<i class="fas fa-download"></i>
+									        		</div>
+								        		</div>
+								        	</li>
+								        </ul>
+								        <div class="choose-all">
+							        		<div class="choose-all_text">
+							        			Выбрать все файлы
+							        		</div>
+							        		<div class="content_item-checkbox">
+							        			<input type="checkbox" id="checkbox-download14" class="all" data-id="d5"  name="skanvord" value="all">
+												<label for="checkbox-download14" class="checkbox-label"></label>
+							        		</div>
+							        	</div>
+								    </div>
+								    <div class="tab" id="tab6">
+								        <ul class="content_list">
+								        	<li class="content_item">
+								        		<div class="content_item-name">
+								        			Дополнительная информация
+								        		</div>
+								        		<div class="content_item-info">
+									        		<div class="content_item-date">
+									        			11.02.2017
+									        		</div>
+									        		<div class="content_item-checkbox">
+									        			<input type="checkbox" id="checkbox-download15" class="one" data-id="d6"  name="additional" value="additional1">
+														<label for="checkbox-download15" class="checkbox-label"></label>
+									        		</div>
+									        		<div class="content_item-download">
+									        			<i class="fas fa-download"></i>
+									        		</div>
+								        		</div>
+								        	</li>
+								        </ul>
+								        <div class="choose-all">
+							        		<div class="choose-all_text">
+							        			Выбрать все файлы
+							        		</div>
+							        		<div class="content_item-checkbox">
+							        			<input type="checkbox" id="checkbox-download16" class="all" data-id="d6"  name="additional" value="all">
+												<label for="checkbox-download16" class="checkbox-label"></label>
+							        		</div>
+							        	</div>
+								    </div>
+								    <div class="tab" id="tab7">
+								        <ul class="content_list">
+								        	<li class="content_item">
+								        		<div class="content_item-name">
+								        			Анекдот
+								        		</div>
+								        		<div class="content_item-info">
+									        		<div class="content_item-date">
+									        			11.02.2017
+									        		</div>
+									        		<div class="content_item-checkbox">
+									        			<input type="checkbox" id="checkbox-download17" class="one" data-id="d7"  name="joke" value="joke1">
+														<label for="checkbox-download17" class="checkbox-label"></label>
+									        		</div>
+									        		<div class="content_item-download">
+									        			<i class="fas fa-download"></i>
+									        		</div>
+								        		</div>
+								        	</li>
+								        </ul>
+								        <div class="choose-all">
+							        		<div class="choose-all_text">
+							        			Выбрать все файлы
+							        		</div>
+							        		<div class="content_item-checkbox">
+							        			<input type="checkbox" id="checkbox-download18" class="all" data-id="d7"  name="joke" value="all">
+												<label for="checkbox-download18" class="checkbox-label"></label>
+							        		</div>
+							        	</div>
+								    </div>
+								    <div class="tab" id="tab8">
+								        <ul class="content_list">
+								        	<li class="content_item">
+								        		<div class="content_item-name">
+								        			Полезные материалы
+								        		</div>
+								        		<div class="content_item-info">
+									        		<div class="content_item-date">
+									        			11.02.2017
+									        		</div>
+									        		<div class="content_item-checkbox">
+									        			<input type="checkbox" id="checkbox-download19" class="one" data-id="d8"  name="useful" value="useful1">
+														<label for="checkbox-download19" class="checkbox-label"></label>
+									        		</div>
+									        		<div class="content_item-download">
+									        			<i class="fas fa-download"></i>
+									        		</div>
+								        		</div>
+								        	</li>
+								        </ul>
+								        <div class="choose-all">
+							        		<div class="choose-all_text">
+							        			Выбрать все файлы
+							        		</div>
+							        		<div class="content_item-checkbox">
+							        			<input type="checkbox" id="checkbox-download20" class="all" data-id="d8"  name="useful" value="all">
+												<label for="checkbox-download20" class="checkbox-label"></label>
+							        		</div>
+							        	</div>
+								    </div>
+								    <div class="tab" id="tab9">
+								        <ul class="content_list">
+								        	<li class="content_item">
+								        		<div class="content_item-name">
+								        			Судоку
+								        		</div>
+								        		<div class="content_item-info">
+									        		<div class="content_item-date">
+									        			11.02.2017
+									        		</div>
+									        		<div class="content_item-checkbox">
+									        			<input type="checkbox" id="checkbox-download21" class="one" data-id="d9"  name="sudoku" value="sudoku1">
+														<label for="checkbox-download21" class="checkbox-label"></label>
+									        		</div>
+									        		<div class="content_item-download">
+									        			<i class="fas fa-download"></i>
+									        		</div>
+								        		</div>
+								        	</li>
+								        </ul>
+								        <div class="choose-all">
+							        		<div class="choose-all_text">
+							        			Выбрать все файлы
+							        		</div>
+							        		<div class="content_item-checkbox">
+							        			<input type="checkbox" id="checkbox-download22" class="all" data-id="d9"  name="sudoku" value="all">
+												<label for="checkbox-download22" class="checkbox-label"></label>
+							        		</div>
+							        	</div>
+								    </div>
+							    </div>
+							</div>
+							<div class="button">
+								Скачать файлы
+								<span class="arrow-right">
+									<img src="img/arrow-right.png" alt="">
+								</span>
+							</div>
+						</div>
+						<div class="cabinet_news">
+							<div class="cabinet_one-news">
+								<div class="news-text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</div>
+								<div class="news-date">
+									11.02.2017 
+								</div>
+							</div>
+							<div class="cabinet_one-news">
+								<div class="news-text">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</div>
+								<div class="news-date">
+									11.02.2017 
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ФУТЕР -->
+
+	<footer>
+		<div class="footer-menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="footer-menu_container">
+							<div class="logo">
+								<img src="img/logo.png" alt="Логотип">
+							</div>
+							<nav>
+								<ul>
+									<li>
+										<a class="scrollto" href="#about">О компании </a>
+									</li>
+							        <li>
+							        	<a class="scrollto" href="#example">Образец телепрограммы </a>
+							        </li>
+							        <li>
+							        	<a class="scrollto" href="#questions">Вопрос и ответ</a>
+							        </li>
+							        <li>
+							        	<a class="scrollto" href="#contacts">Контакты</a>
+							        </li>
+								</ul>
+							</nav>
+							<div class="footer-contacts">
+								<div class="contacts_tel">
+									<i class="fas fa-phone"></i>
+									<a href="tel:+74993505545">
+										+7 (499) 350-55-45
+									</a>
+								</div>
+								<div class="contacts_mail">
+									<i class="fas fa-envelope"></i>
+									<a href="mailto:mail@tv-soft.com">
+										mail@tv-soft.com
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div>
+							Все права защищены © 2007-2018 tv-soft.com
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<!-- loader -->
+
+	<div id="loader">
+		<img src="img/ripple.svg" alt="">
+	</div>
+
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.arcticmodal.js"></script>	
+	<script src="js/flexmenu.min.js"></script>	
+	<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
